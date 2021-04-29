@@ -1,0 +1,104 @@
+$transition:all 0.3s ease-in-out;
+body{
+			  
+			  background-color: #d0ccc9;
+		  }
+	
+		  h1{
+			  text-align: center;
+			  color:blue;
+		  }
+		  h2{
+			  color:darkred;
+			  background-color: #7b7b7b;
+			  text-align: center;
+			  margin-bottom: 10px;
+		  }
+mark{
+	color:white;
+	background-color: transparent;
+	margin-left: 30px;
+}
+strong{
+	color:white;
+	text-decoration: underline;
+	margin-left: 30px;
+}
+input[type="radio"]{
+	margin-left: 20px;
+}
+		  label{
+			  font-size: 40px;
+			  margin-left: 20px;
+		  }
+		  
+		 
+		 
+		  #submit{
+			  position: absolute;
+			  margin-left:30%;
+			  background-color: darkred;
+			  font-size: 25px;
+			  transition: $transition;
+		  }
+#submit:hover{
+	opacity: 0.6;
+}
+
+ #next1{
+			   position: absolute;
+			  left:30%;
+			  background-color: darkgreen;
+			  font-size: 25px;
+			  transition: $transition;
+		  }
+		    #back1{
+				position: absolute;
+			  left:15%;
+			  background-color: darkgreen;
+			  font-size: 25px;
+			  transition: $transition;
+		  }
+#next1:hover , #back1:hover{
+	
+	background-color: darkblue;
+}
+		/*  #back2{
+			  position: absolute;
+			  margin-left:10%;
+			  background-color: darkgreen;
+			  font-size: 25px;
+			  
+		  } */
+		    #again{
+				position: absolute;
+			  margin-left:65%;
+			  background-color: darkred;
+			  font-size: 25px;
+			  
+		  }
+		
+		  .sco{
+			  font-size: 35px;
+			  color:green;
+			  
+			  background-color: aquamarine;
+			   position: relative;
+			  text-align: center;
+			  margin-top: 15px;
+			 
+		  }
+
+@media (max-width:850px){
+	
+	label , h2{
+		font-size: 20px;
+	}
+	#next1 , #back1 , #submit , #again{
+		font-size: 15px;
+	}
+	h1 , .sco{
+		font-size: 25px;
+	}
+
+}
